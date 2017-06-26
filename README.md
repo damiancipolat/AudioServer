@@ -9,10 +9,10 @@ $ npm install
 Servicios del servidor.
 
 - AudioList: Obtener listado de archivos publicados.
-Ej: http://127.0.0.1:5000/audioList
+  Ej: http://127.0.0.1:5000/audioList
 
-Respuesta:
-["andrew_rayel_impulse.mp3","groove_armada_paris.mp3"]
+  Respuesta:
+  ["andrew_rayel_impulse.mp3","groove_armada_paris.mp3"]
 
 - Audio: Devuelvo streamings del archivo.
-Ej: http://127.0.0.1:5000/audio/andrew_rayel_impulse.mp3
+  Ej: http://127.0.0.1:5000/audio/andrew_rayel_impulse.mp3
