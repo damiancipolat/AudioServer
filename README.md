@@ -11,11 +11,8 @@ Servicios del servidor.
 - AudioList: Obtener listado de archivos publicados.
 Ej: http://127.0.0.1:5000/audioList
 
-Ej, respuesta:
+Respuesta:
 ["andrew_rayel_impulse.mp3","groove_armada_paris.mp3"]
 
-- busByLinea: Devuelve toda la info disponible sobre la linea de un colectivo.
-Ej: http://127.0.0.1:5000/busByLinea/101/
-
-- audio: Devuelvo streamings del archivo.
+- Audio: Devuelvo streamings del archivo.
 Ej: http://127.0.0.1:5000/audio/andrew_rayel_impulse.mp3
